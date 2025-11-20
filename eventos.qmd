@@ -1,0 +1,35 @@
+:::{.cr-section}
+
+2024-01-15 @cr-kickoff
+
+:::{#cr-kickoff}
+Project kickoff begins
+![](img/image.png){width=30%}
+:::
+
+:::
+
+
+:::{.cr-section}
+
+2024-06-30 @cr-milestone
+
+:::{#cr-milestone}
+First milestone achieved
+![](img/elefante.png){width=30%}
+:::
+
+:::
+
+
+:::{.cr-section}
+
+2024-10-05 @cr-showcase
+
+:::{#cr-showcase}
+Public showcase with stakeholders
+![](img/image.png){width=30%}
+:::
+
+:::
+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -26,15 +26,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="index_files/libs/quarto-html/anchor.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="index_files/libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
 <script src="index_files/libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
 <script src="index_files/libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
@@ -73,16 +72,16 @@ ul.task-list li input[type="checkbox"] {
 <p>Hello World! Please read my Closeread story below.</p>
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-focus-on="cr-kickoff">
+<div class="trigger new-trigger" data-focus-on="cr-LES">
 <div class="narrative">
-<p>2024-01-15</p>
+<p>1985-01-15</p>
 </div>
 </div>
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
-<div id="cr-kickoff" class="sticky">
-<p>Project kickoff begins <img src="img/image.png" class="img-fluid" style="width:30.0%"></p>
+<div id="cr-LES" class="sticky">
+<p>Laboratorio de Energía Solar: Nacimos como Laboratorio de Energía Solar (LES) y nos enfocamos en temas afines; con el tiempo, crecimos en otras áreas de investigación y nos convertimos en el Centro de Investigación en Energía (CIE). Hoy, como Instituto de Energías Renovables (IER), abordamos nuevos temas de investigación, desarrollamos nuevas formas de colaboración multidisciplinaria, enfocamos nuestra labor hacia la innovación e incluimos una perspectiva de género en nuestro quehacer académico relacionado con energías renovables <img src="img/image.png" class="img-fluid" style="width:30.0%"></p>
 </div>
 </div>
 </div>
@@ -98,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-milestone" class="sticky">
-<p>First milestone achieved <img src="img/image.png" class="img-fluid" style="width:30.0%"></p>
+<p>First milestone achieved <img src="img/elefante.png" class="img-fluid" style="width:30.0%"></p>
 </div>
 </div>
 </div>
@@ -173,14 +172,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

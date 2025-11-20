@@ -1,9 +1,9 @@
 :::{.cr-section}
 
-2024-01-15 @cr-kickoff
+1985-01-15 @cr-LES
 
-:::{#cr-kickoff}
-Project kickoff begins
+:::{#cr-LES}
+Laboratorio de Energía Solar: Nacimos como Laboratorio de Energía Solar (LES) y nos enfocamos en temas afines; con el tiempo, crecimos en otras áreas de investigación y nos convertimos en el Centro de Investigación en Energía (CIE). Hoy, como Instituto de Energías Renovables (IER), abordamos nuevos temas de investigación, desarrollamos nuevas formas de colaboración multidisciplinaria, enfocamos nuestra labor hacia la innovación e incluimos una perspectiva de género en nuestro quehacer académico relacionado con energías renovables
 ![](img/image.png){width=30%}
 :::
 
